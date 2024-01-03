@@ -1,10 +1,13 @@
 import Home from '@screens/home/home';
 import React from 'react';
-
-import {SafeAreaView} from 'react-native';
+import {View, Text} from 'react-native';
 
 function App(): React.JSX.Element {
-  return <Home />;
+  return (
+    <View>
+      <Home />
+    </View>
+  );
 }
 
 export default App;
